@@ -1,4 +1,6 @@
-chargement modeles debouts
+chargement modeles debout
+2 parametres sur un attribut html
+parametre pour accelerer ou ralentir l'animation
 
 son
 ralentissement
