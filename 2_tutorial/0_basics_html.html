@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            #block { background-color: silver;}
+            .text { color: blue;}
+        </style>
+        <script scr="./0_basics_html.js"></script>
+    </head>
+    <body>
+        <h1>TITLE</h1>
+        <p>paragraphe</p>
+        <!-- comment  -->
+        <div id="block" width="300">
+            <p class="text">text1</p>
+            <p class="text">text2</p>
+            <p class="text">text3</p>
+        </div>
+        <!-- <button type="button" onclick="document.getElementById('block').style.display='none'">Click Me!</button> -->
+        <button type="button" onclick="hideElement();">Click Me!</button>
+        <!-- <script>
+        function hideElement() {
+                var element = document.getElementById("block");
+                element.style.display = "none";
+                console.log("element hide");
+            }
+        </script> -->
+    </body>
+</html>

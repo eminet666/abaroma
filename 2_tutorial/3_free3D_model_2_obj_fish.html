@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+</head>
+
+<body>
+
+    <a-scene background="color: skyblue">
+        <a-assets>
+            <a-asset-item id="model-obj" src="./assets/free3D/3Dmodels/Blue-Green_Reef_Chromis_v2/13007_Blue-Green_Reef_Chromis_v2_l3.obj"></a-asset-item>
+            <a-asset-item id="model-mtl" src="./assets/free3D/3Dmodels/Blue-Green_Reef_Chromis_v2/13007_Blue-Green_Reef_Chromis_v2_l3.mtl"></a-asset-item>
+        </a-assets>
+    
+        <a-entity obj-model="obj: #model-obj; mtl: #model-mtl" position="0 1 -2" scale="0.2 0.2 0.2"
+            rotation="-90 45 -90"></a-entity>
+    
+        <!-- <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="silver"></a-plane> -->
+    
+    </a-scene>
+
+</body>
+
+</html>

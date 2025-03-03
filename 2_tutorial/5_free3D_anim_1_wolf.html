@@ -1,0 +1,30 @@
+<!-- animations : Walk cycle | Run cycle | Sit | Creep cycles | Idle animation -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aframe-extras@7.5.4/dist/aframe-extras.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v6.1.0/dist/aframe-extras.min.js"></script>
+
+  </head>
+
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="anim-glb" src ="./assets/free3D/3Danims/Wolf.glb"></a-asset-item>
+      </a-assets>
+
+      <a-entity  id ="wolf"
+          scale="3.5 3.5 3.5"
+          position="0 0 -5"
+          rotation="0 45 0"
+          gltf-model="#anim-glb"          
+          animation-mixer="clip: 01_Run"
+>
+      </a-entity>
+
+      <a-sky color="silver"></a-sky>
+    </a-scene>
+  </body>
+</html>
