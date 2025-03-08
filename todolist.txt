@@ -1,5 +1,11 @@
+
+
+liens aux pdf dans le README
+animations fox, wolf download
+regarder les free 3D qui marchent (sources déplacées)
+
 chargement modeles debout
-2 parametres sur un attribut html
+
 parametre pour accelerer ou ralentir l'animation
 
 son

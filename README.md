@@ -14,9 +14,7 @@
 * [statue (glb, 3D scan)](./2_tutorial/2_3Dmodel_5_glb_3Dscan_statue.html)
 * [statue (glb, lights and shadow)](./2_tutorial/2_3Dmodel_6_glb_3Dscan_statue_light_shadows.html)
 
-
-
-
+### 3D anim
 
 ## ressources
 ### downloads
@@ -30,6 +28,8 @@
 * [polycam (from 3D scan sharing)](https://poly.cam/explore)
 * [mixamo (adobe) (characters and animations)](https://www.mixamo.com/#/)
 
+### test
+* [arjs webXR local origine](./z_tests/test_arjs_webxr.html)
 
 
 
