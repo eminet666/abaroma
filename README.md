@@ -1,3 +1,6 @@
+### test
+* [arjs webXR local origine](./z_tests/test_arjs_webxr.html)
+
 ## 0_ demo : "teach me to dance !"
 * [movie reference](./0_demo_sirtaki_VR/ensaama/zorba/zorba.mp4)
 * [sirtaki VR at ensaama](./0_demo_sirtaki_VR/ensaama/ensaama.html)
@@ -28,8 +31,7 @@
 * [polycam (from 3D scan sharing)](https://poly.cam/explore)
 * [mixamo (adobe) (characters and animations)](https://www.mixamo.com/#/)
 
-### test
-* [arjs webXR local origine](./z_tests/test_arjs_webxr.html)
+
 
 
 
