@@ -27,28 +27,25 @@
         Position : (0, 0, 0)
     </p>
 
+    <!-- Bouton pour fixer l'origine -->
+    <button id="fixOriginButton" style="margin-top: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer;">
+        Fixer l'origine
+    </button>
+
     <script>
         AFRAME.registerComponent("track-movement", {
             init: function () {
                 this.positionDisplay = document.getElementById("positionDisplay");
+                this.fixOriginButton = document.getElementById("fixOriginButton");
                 this.originSet = false;
                 this.origin = new THREE.Vector3();
                 this.camera = this.el;
 
-                // Bouton pour fixer l'origine
-                const button = document.createElement("button");
-                button.innerText = "Fixer l'origine";
-                button.style.marginTop = "10px";
-                button.style.padding = "10px 20px";
-                button.style.fontSize = "16px";
-                button.style.cursor = "pointer";
-                document.body.appendChild(button);
-
-                button.addEventListener("click", () => {
+                this.fixOriginButton.addEventListener("click", () => {
                     this.origin.copy(this.camera.object3D.position);
                     console.log("Origine fixée:", this.origin);
                     this.originSet = true;
-                    button.style.display = "none"; // Cacher le bouton après utilisation
+                    this.fixOriginButton.style.display = "none"; // Cacher le bouton après utilisation
                 });
             },
 
