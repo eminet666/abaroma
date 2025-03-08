@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/aframe-extras@7.2.0/dist/aframe-extras.min.js "></script>
+    <script>
+        var delai = 500;
+        AFRAME.registerComponent('goanim', {
+            schema: {
+                next: { type: 'string', default: '' },
+                stop: { type: 'string', default: '' },                
+                timescale: { type: 'number', default: 4 },
+                loop: { type: 'boolean', default: false },
+            },             
+            init: function () {
+                var el = this.el;
+                var id = el.id;
+                if (this.data.next) {
+                    var next = this.data.next;
+                    var next_array = next.split(',').map(element => element.trim());
+                    var timescale = this.data.timescale; 
+                }
+                if (this.data.loop) {
+                    var loop = this.data.loop;   
+                }
+                 
+                if (this.data.stop) {
+                    console.log("ici");
+                    var stop = this.data.stop;                 
+                    var stop_array = stop.split(',').map(element => element.trim());
+                    console.log("stop : " + stop);
+                }                
+
+                el.addEventListener('animation-loop', () => {
+                    // arrete l'anim de l'entity appelante
+                    if(!loop) el.setAttribute("animation-mixer", "timeScale: 0;");
+                    // lance les anims appelées
+                    if (this.data.next){
+                        for (let i = 0; i < next_array.length; i++) {
+                            //console.log("start : " + next_array[i]);
+                            startAnim(next_array[i]);
+                        }
+                    }
+                    // arrête les applis demandées
+                    if (this.data.stop) {
+                        for (let i = 0; i < stop_array.length; i++) {
+                            //console.log("stop : " + stop_array[i]);
+                            stopAnim(stop_array[i]);
+                        }
+                    }                    
+
+                });
+
+                el.addEventListener('restart', () => {
+                    //console.log("emit reçu :"+id);  
+                    el.setAttribute("animation-mixer", "timeScale: "+timescale );
+                });                
+
+                el.addEventListener('stopnow', () => {
+                    //console.log("emit reçu :"+id);  
+                    el.setAttribute("animation-mixer", "timeScale: 0");
+                });  
+
+
+            }
+        }); 
+
+        function startAnim(anim) {
+            setTimeout(function (param) {
+                document.getElementById(anim).emit('restart');
+                //console.log("emit restart : " + anim);
+            }.bind(null, anim), delai);
+        }
+        function stopAnim(anim) {
+            setTimeout(function (param) {
+                document.getElementById(anim).emit('stopnow');
+                //console.log("emit stopnow : " + anim);
+            }.bind(null, anim), delai);
+        }        
+
+    </script>
+</head>
+
+<body>
+    <a-scene background="color: skyblue">
+        <a-assets>
+            <a-asset-item id="anim_mandala" src="./assets/models/mandala.glb"></a-asset-item>
+            <a-asset-item id="anim_isabelle" src="./assets/models/isabelle.glb"></a-asset-item>
+            <a-asset-item id="anim_lou" src="./assets/models/lou.glb"></a-asset-item>
+            <a-asset-item id="anim_jacqueline" src="./assets/models/jacqueline.glb"></a-asset-item>
+            <a-asset-item id="anim_laura" src="./assets/models/laura.glb"></a-asset-item>
+            <a-asset-item id="anim_tiphaine" src="./assets/models/tiphaine.glb"></a-asset-item>
+            <a-asset-item id="anim_bleuenn" src="./assets/models/bleuenn.glb"></a-asset-item>
+        </a-assets>
+
+        <a-entity id="mandala" position="-4.5 0 -6" gltf-model="#anim_mandala" animation-mixer="timeScale : 4;"
+            goanim="next: lou, isabelle; timescale: 4;loop: true;">
+        </a-entity>
+
+        <a-entity id="isabelle" position="-3 0 -5" gltf-model="#anim_isabelle" animation-mixer="timeScale : 0;"
+            goanim="next: mandala; timescale: 4;">
+        </a-entity>
+
+        <a-entity id="lou" position="-1.5 0 -4" gltf-model="#anim_isabelle" animation-mixer="timeScale : 0;"
+            scale="0.95 0.95 0.95" goanim="next: mandala; loop: true; stop: mandala, mandala;">
+        </a-entity>
+
+        <!-- <a-entity id="mandala" position="-4.5 0 -6" gltf-model="#anim_mandala" animation-mixer="timeScale : 4;"
+            goanim="next: isabelle; timescale: 4;">
+        </a-entity>
+        
+        <a-entity id="isabelle" position="-3 0 -5" gltf-model="#anim_isabelle" animation-mixer="timeScale : 0;"
+            goanim="next: lou; timescale: 4;">
+        </a-entity>
+        
+        <a-entity id="lou" position="-1.5 0 -4" gltf-model="#anim_lou" animation-mixer="timeScale : 0;" scale="0.95 0.95 0.95"
+            goanim="next: jacqueline; timescale: 4;">
+        </a-entity> -->
+
+
+
+        <!-- <a-entity id="jacqueline" position="0 0 -3" gltf-model="#anim_jacqueline" animation-mixer="timeScale : 0;"
+            goanim="next: laura; timescale: 4;">
+        </a-entity>
+
+        <a-entity id="laura" position="1.5 0 -4" gltf-model="#anim_laura" animation-mixer="timeScale : 0;"
+            scale="1.1 1.1 1.1" goanim="next: tiphaine; timescale: 4;">
+        </a-entity>
+
+        <a-entity id="tiphaine" position="3 0 -5" gltf-model="#anim_tiphaine" animation-mixer="timeScale : 0;"
+            goanim="next: bleuenn; timescale: 4;">
+        </a-entity>
+
+        <a-entity id="bleuenn" position="4.5 0 -6" gltf-model="#anim_bleuenn" animation-mixer="timeScale : 0;"
+            goanim="next: mandala; timescale: 4;">
+        </a-entity> -->
+
+
+
+        <!-- plane -->
+        <a-plane position="0 0 -6" color="grey" height="12" width="12" rotation="-90 0 0" shadow></a-plane>
+
+        <a-entity camera look-controls position="0 1.6 0"></a-entity>
+    </a-scene>
+
+</body>
+
+</html>
