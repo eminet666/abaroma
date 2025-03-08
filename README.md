@@ -1,5 +1,6 @@
 ### test
 * [arjs webXR local origine](./tests/test_arjs_webxr.html)
+* [trace](./tests/test_arjs_webxr_trace.html)
 
 ## 0_ demo : "teach me to dance !"
 * [movie reference](./0_demo_sirtaki_VR/ensaama/zorba/zorba.mp4)
