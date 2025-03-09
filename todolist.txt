@@ -4,10 +4,6 @@ regarder les free 3D qui marchent (sources déplacées)
 
 chargement modeles debout
 
-parametre pour accelerer ou ralentir l'animation
 
-son
-ralentissement
-music
 
 skeleton
