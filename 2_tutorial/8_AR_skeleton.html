@@ -12,20 +12,25 @@
 
 <body>
 
-    <a-scene arjs>
+    <a-scene arjs frequency="delay: 500">
         <a-assets>
-            <a-asset-item id="glbModel" src="./assets/3Danims/birds/Flamingo.glb"></a-asset-item>
+            <a-asset-item id="fox" src="./assets/3Danims/fox/fox.glb"></a-asset-item>
+            <audio id="music" src="./assets/audio/wind.mp3" preload="auto" autoplay="true" volume="1" loop="true"></audio>
         </a-assets>
 
-        <a-entity   id ="flamingo"
-                            scale="0.5 0.5 0.5"
-                            position="0 1.6 -5"
-                            rotation="0 90 0"
-                            animation-mixer
-                            gltf-model="#glbModel">
+        <a-entity position="-0 0 -3" rotation="0 60 0" scale="0.01 0.01 0.01" 
+            gltf-model="#fox" animation-mixer="clip: Run" shadow>
         </a-entity>
 
+        <a-plane position="0 0 -4" color="grey" height="8" width="8" rotation="-90 0 0" shadow></a-plane>
+
     </a-scene>
+
+    <div id="musique">
+        <button id="bouton">SON ON</button>
+    </div>
+    <script src="https://eminet666.github.io/abaroma/lib/audio_management.js"></script>
+
 </body>
 
 </html>
