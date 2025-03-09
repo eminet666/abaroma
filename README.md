@@ -15,7 +15,9 @@
 * [program](./1_presentation/workshop_abaroma_program.pdf)
 
 ## 2_ tutorial / demo files
-### 3D models
+### 1_ aframe library
+*[basic aframe](./2_tutorial/1_basics_aframe.html)
+### 2_ 3D models in a VR scene
 * [cat (obj, no material)](./2_tutorial/2_3Dmodel_1_obj_cat.html)
 * [lowpoly tree (obj, color materials)](./2_tutorial/2_3Dmodel_2_obj_tree.html)
 * [skull (obj, images materials)](./2_tutorial/2_3Dmodel_3_obj_skull.html)
@@ -24,18 +26,25 @@
 * [statue (glb, 3D scan)](./2_tutorial/2_3Dmodel_5_glb_3Dscan_statue.html)
 * [statue (glb, lights and shadow)](./2_tutorial/2_3Dmodel_6_glb_3Dscan_statue_light_shadows.html)
 
-### 3D anim
-* [birds (1 animation)](./2_tutorial/4_3Danim_0_birds.html)
-* [fox (3 animations)](./2_tutorial/4_3Danim_1_fox_all.html)
-* [anim parameters : loop, repetitions](./2_tutorial/4_3Danim_3_fox_param_loop-repeat.html)
-* [anim parameters : timeScale](./2_tutorial/4_3Danim_4_fox_param_timescale_.html)
+### 3_ 3D animations a VR scene
+* [birds (1 animation)](./2_tutorial/3_3Danim_0_birds.html)
+* [fox (3 animations)](./2_tutorial/3_3Danim_1_fox_all.html)
+* [anim parameters : loop, repetitions](./2_tutorial/3_3Danim_3_fox_param_loop-repeat.html)
+* [anim parameters : timeScale](./2_tutorial/3_3Danim_4_fox_param_timescale_.html)
 
-### AR scenes
+### 6_ 3D animations a AR scene
 
-### AFRAME complements
-* [lights (default)](./2_tutorial/6_complements_1_lights.html)
-* [frequency, shadow](./2_tutorial/6_complements_2_frequency_shadow.html)
-* [audio (iOS music permission)](./2_tutorial/6_complements_3_music_auto.html)
+### 7_ AFRAME complements
+* [lights (default)](./2_tutorial/7_complements_1_lights.html)
+* [shadow](./2_tutorial/7_complements_2_frequency_shadow.html)
+* [frequency](./2_tutorial/7_complements_3_frequency.html)
+* [frequency component](./2_tutorial/7_complements_3_frequency_component.html)
+* [audio](./2_tutorial/7_complements_4_audio.html)
+* [audio (iOS music permission)](./2_tutorial/7_complements_4_audio_ios.html)
+
+## downloads
+* [3D assets samples](./downloads/assets_samples.zip)
+* [3D models rigged](./)
 
 ## ressources
 ### links
@@ -43,10 +52,6 @@
 * [aframe getting start](https://aframe.io/docs/1.7.0/introduction/)
 * [animation-mixer](https://github.com/c-frame/aframe-extras/tree/master/src/loaders)
 * [aframe tutorial](https://aframe-course.glitch.me/index.html)
-
-### downloads
-* [3D assets samples](./downloads/assets_samples.zip)
-* [3D models rigged](./)
 
 ### some free online 3D repositories
 * [turbosquid](https://www.turbosquid.com/Search/3D-Models/free)
