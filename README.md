@@ -33,6 +33,8 @@
 * [anim parameters : timeScale](./2_tutorial/3_3Danim_4_fox_param_timescale_.html)
 
 ### 6_ 3D animations a AR scene
+* [AR base sample](./2_tutorial/6_3Danim_1_AR_base.html)
+* [AR 360° rotation model](./2_tutorial/6_3Danim_2_AR_anim.html)
 
 ### 7_ AFRAME complements
 * [lights (default)](./2_tutorial/7_complements_1_lights.html)
