@@ -1,14 +1,13 @@
 #musique {
     position: absolute;
-    left: 10px;
-    bottom: 10px;
-    width: 800px;
+    left: 20px;
+    bottom: 20px;
+    width: 100px;
     height: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    border: dotted black 1px;
 }
 
 #contexte {
