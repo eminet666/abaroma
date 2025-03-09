@@ -1,7 +1,3 @@
-### test
-* [arjs webXR local origine](./tests/test_arjs_webxr.html)
-* [trace](./tests/test_arjs_webxr_trace.html)
-* [follow pos](./tests/follow_pos.html)
 
 ## 0_ demo : "teach me to dance !"
 * [movie reference](./0_demo_sirtaki_VR/ensaama/zorba/zorba.mp4)
@@ -15,10 +11,10 @@
 * [program](./1_presentation/workshop_abaroma_program.pdf)
 
 ## 2_ tutorial / demo files
-### 1_ aframe library
+#### 1_ aframe library
 * [basic aframe](./2_tutorial/1_basics_aframe.html)
 
-### 2_ 3D models in a VR scene
+#### 2_ 3D models in a VR scene
 * [cat (obj, no material)](./2_tutorial/2_3Dmodel_1_obj_cat.html)
 * [lowpoly tree (obj, color materials)](./2_tutorial/2_3Dmodel_2_obj_tree.html)
 * [skull (obj, images materials)](./2_tutorial/2_3Dmodel_3_obj_skull.html)
@@ -27,17 +23,17 @@
 * [statue (glb, 3D scan)](./2_tutorial/2_3Dmodel_5_glb_3Dscan_statue.html)
 * [statue (glb, lights and shadow)](./2_tutorial/2_3Dmodel_6_glb_3Dscan_statue_light_shadows.html)
 
-### 3_ 3D animations a VR scene
+#### 3_ 3D animations a VR scene
 * [birds (1 animation)](./2_tutorial/3_3Danim_0_birds.html)
 * [fox (3 animations)](./2_tutorial/3_3Danim_1_fox_all.html)
 * [anim parameters : loop, repetitions](./2_tutorial/3_3Danim_3_fox_param_loop-repeat.html)
 * [anim parameters : timeScale](./2_tutorial/3_3Danim_4_fox_param_timescale_.html)
 
-### 6_ 3D animations a AR scene
+#### 6_ 3D animations a AR scene
 * [AR base sample](./2_tutorial/6_3Danim_1_AR_base.html)
 * [AR 360° rotation model](./2_tutorial/6_3Danim_2_AR_anim.html)
 
-### 7_ AFRAME complements
+#### 7_ AFRAME complements
 * [lights (default)](./2_tutorial/7_complements_1_lights.html)
 * [shadow](./2_tutorial/7_complements_2_frequency_shadow.html)
 * [frequency](./2_tutorial/7_complements_3_frequency.html)
@@ -45,7 +41,7 @@
 * [audio](./2_tutorial/7_complements_4_audio.html)
 * [audio (iOS music permission)](./2_tutorial/7_complements_4_audio_ios.html)
 
-### 8_final VR/AR experiences
+#### 8_final VR/AR experiences
 * [VR skeleton](./2_tutorial/8_VR_skeleton.html)
 * [AR skeleton](./2_tutorial/8_AR_skeleton.html)
 

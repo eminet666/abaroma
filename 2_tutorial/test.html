@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>AR.js Transparent Shadow Plane</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+</head>
+
+<body style="margin: 0; overflow: hidden;">
+    <a-scene embedded arjs>
+        <!-- Light with shadow casting -->
+        <a-entity light="type: ambient; color: #BBB" position="0 2 0"></a-entity>
+        <a-entity light="type: directional; intensity: 0.5; castShadow: true" position="0 2 1"></a-entity>
+
+        <!-- Transparent plane that receives shadows -->
+        <a-plane position="0 0 -1" rotation="-90 0 0" width="2" height="2" color="#FFFFFF" opacity="0.5"
+            transparent="true" shadow="receive: true">
+        </a-plane>
+
+        <!-- Sphere that casts a shadow -->
+        <a-sphere position="0 0.5 -1" radius="0.25" color="#EF2D5E" shadow="cast: true">
+        </a-sphere>
+
+        <!-- Camera -->
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+
+</html>
