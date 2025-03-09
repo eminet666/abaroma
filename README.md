@@ -16,7 +16,8 @@
 
 ## 2_ tutorial / demo files
 ### 1_ aframe library
-*[basic aframe](./2_tutorial/1_basics_aframe.html)
+* [basic aframe](./2_tutorial/1_basics_aframe.html)
+
 ### 2_ 3D models in a VR scene
 * [cat (obj, no material)](./2_tutorial/2_3Dmodel_1_obj_cat.html)
 * [lowpoly tree (obj, color materials)](./2_tutorial/2_3Dmodel_2_obj_tree.html)
@@ -49,6 +50,7 @@
 * [3D models rigged](./)
 
 ## ressources
+
 ### links
 * [aframe](https://aframe.io/)
 * [aframe getting start](https://aframe.io/docs/1.7.0/introduction/)
