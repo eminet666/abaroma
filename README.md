@@ -45,6 +45,10 @@
 * [audio](./2_tutorial/7_complements_4_audio.html)
 * [audio (iOS music permission)](./2_tutorial/7_complements_4_audio_ios.html)
 
+### 8_final VR/AR experiences
+* [VR skeleton](./2_tutorial/8_VR_skeleton.html)
+* [AR skeleton](./2_tutorial/8_AR_skeleton.html)
+
 ## downloads
 * [3D assets samples](./downloads/assets_samples.zip)
 * [3D models rigged](./)
