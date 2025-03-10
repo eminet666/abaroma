@@ -4,6 +4,4 @@ regarder les free 3D qui marchent (sources déplacées)
 
 chargement modeles debout
 
-
-
-skeleton
+geoloc ensaama / rome / truillot AR
