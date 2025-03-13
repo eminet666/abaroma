@@ -7,8 +7,10 @@
 * [robot's dance VR](./0_demo_ronde_VR/5_test_chore_final.html)
 
 ## 1_ presentation
-* [flyer](./1_presentation/flyer/abaroma_flyer.pdf)
-* [program](./1_presentation/workshop_abaroma_program.pdf)
+* [workshop flyer](./1_presentation/flyer/abaroma_flyer.pdf)
+* [workshop program](./1_presentation/workshop_abaroma_program.pdf)
+* [ensaama_numeric_presentation](./1_presentation/workshop_abaroma_ensaama_num.pdf)
+* [3D models catalog](./1_presentation/workshop_abaroma_3Dmodels.pdf)
 
 ## 2_ tutorial / demo files
 #### 1_ aframe library
@@ -47,7 +49,8 @@
 
 ## downloads
 * [3D assets samples](./downloads/assets_samples.zip)
-* [3D models rigged](./)
+* [3D models (blender)](./downloads/3Dmodels_empty.zip)
+* [3D models (jpg)](./downloads/3Dmodels_images.zip)
 
 ## ressources
 
