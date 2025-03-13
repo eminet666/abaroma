@@ -48,7 +48,7 @@
 * [AR skeleton](./2_tutorial/8_AR_skeleton.html)
 
 ## downloads
-* [3D assets samples](./downloads/assets_samples.zip)
+* [3D assets samples](./downloads/assets.zip)
 * [3D models (blender)](./downloads/3Dmodels_empty.zip)
 * [3D models (jpg)](./downloads/3Dmodels_images.zip)
 
