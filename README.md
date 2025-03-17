@@ -1,4 +1,6 @@
 
+* [workshop students files](./workshop/README.md)
+
 ## 0_ demo : "teach me to dance !"
 * [movie reference](./0_demo_sirtaki_VR/ensaama/zorba/zorba.mp4)
 * [sirtaki VR at ensaama](./0_demo_sirtaki_VR/ensaama/ensaama.html)
