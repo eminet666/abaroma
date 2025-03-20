@@ -57,6 +57,7 @@
 * [3D assets samples](./downloads/assets.zip)
 * [3D models (blender)](./downloads/3Dmodels_empty.zip)
 * [3D models (jpg)](./downloads/3Dmodels_images.zip)
+* [final samples VR/AR](./downloads/final.zip)
 
 ## ressources
 
