@@ -1,6 +1,8 @@
 
 ## workshop
 * [workshop students files](./workshop/README.md)
+* [workshop final VR](./workshop/final/demo_VR.html)
+* [workshop final AR](./workshop/final/demo_AR.html)
 * [workshop sirtaki contest](./0_demo_sirtaki_VR/ensaama/sirtaki_VR_contest.html)
 
 ## 0_ demo : "teach me to dance !"
