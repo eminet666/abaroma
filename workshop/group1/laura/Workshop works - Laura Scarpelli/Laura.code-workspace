@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Laura",
+			"path": "."
+		},
+		{
+			"name": "assets",
+			"path": "../../Downloads/assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Laura"
+	}
+}

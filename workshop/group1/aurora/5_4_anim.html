@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.5.4/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="flamingo" src="./assets/assets/3Danims/birds/Flamingo.glb"></a-asset-item>
+      
+      </a-assets>
+
+      <a-entity gltf-model= #flamingo 
+                position="0 1 -5" rotation="0 90 0" scale="1 1 1"  
+                animation-mixer>
+      </a-entity>
+     
+
+    
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="pink"></a-plane>
+      <a-sky color="skyblue"></a-sky>
+    </a-scene>
+  </body>
+</html>
