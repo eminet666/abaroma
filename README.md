@@ -1,7 +1,7 @@
 
 ## workshop
 * [workshop students files](./workshop/README.md)
-* [workshop sirtaki contest](./0_demo_sirtaki_VR/ensaama/sirtaki_VR_contet.html)
+* [workshop sirtaki contest](./0_demo_sirtaki_VR/ensaama/sirtaki_VR_contest.html)
 
 ## 0_ demo : "teach me to dance !"
 * [movie reference](./0_demo_sirtaki_VR/ensaama/zorba/zorba.mp4)
