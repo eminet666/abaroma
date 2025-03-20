@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.5.4/dist/aframe-extras.min.js"></script>
+        <style>
+            #abaroma {color: red;}
+         </style>
+    </head>
+    <body>
+        <a-scene>
+                <a-assets>
+                    <a-asset-item id="fox" src="./assets/3Danims/fox/fox.glb"></a-asset-item>
+                </a-assets>
+            <a-entity gltf-model="#fox" 
+                      position="0 0 0" 
+                      rotation="0 0 0" 
+                      scale=".03 .03 .03"
+                      animation-mixer="clip: Walk">
+                    </a-entity>
+            <a-entity light="intensity: 1.884; castShadow: true" position="19.09837 1 1" data-aframe-default-light="" aframe-injected=""></a-entity>
+            <a-entity camera="" s="" look-controls="" wasd-controls="fly: true" ></a-entity>            
+            <a-sky color="skyblue"></a-sky>
+        </a-scene>
+      <h1 id="abaroma">TITLE</h1>
+      <p>paragraph</p>
+    </body>
+</html>

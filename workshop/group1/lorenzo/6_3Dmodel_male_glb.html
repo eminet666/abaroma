@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+        <style>
+            #abaroma {color: red;}
+         </style>
+    </head>
+    <body>
+        <a-scene>
+                <a-assets>
+                    <a-asset-item id="male" src="./assets/3Dmodels/exp4_glb_female_male/male.glb"></a-asset-item>
+                    <a-asset-item id="female" src="./assets/3Dmodels/exp4_glb_female_male/female.glb"></a-asset-item>
+                    <a-asset-item id="barraco" src="./assets/3Dmodels/exp5_glb_3Dscan_barraco_statue/3Dscan_baracco.glb"></a-asset-item>
+                </a-assets>
+            <a-entity gltf-model="#male" position="0 0 0" rotation="0 0 0" scale=".1 .1 .1"></a-entity>
+            <a-entity gltf-model="#female" position="12 0 0" rotation="0 0 0" scale=".1 .1 .1"></a-entity>
+            <a-entity gltf-model="#barraco" position="0 -12 12" rotation="0 180 0" scale="20 20 20"></a-entity>
+            <a-plane color="green" height="20" width="20" position="0 -12 0" rotation="-90 0 0" scale="2 2 2"></a-plane>
+            <a-entity light="intensity: 1.884; castShadow: true" position="19.09837 1 1" data-aframe-default-light="" aframe-injected=""></a-entity>
+            <a-entity camera="active: true"s look-controls wasd-controls position="0 1.6 0"></a-entity>
+            <a-sky color="skyblue"></a-sky>s
+        </a-scene>
+      <h1 id="abaroma">TITLE</h1>
+      <p>paragraph</p>
+    </body>
+</html>
