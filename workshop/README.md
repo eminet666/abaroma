@@ -13,7 +13,7 @@
 * [marialetizia.todini]()
 * [sara.bagnarini](./group2/Sara/2_5_anim_birds_AR.html)
 * [martina.panico](./group2/Martina/2_5_anim_birds.html)
-* [federica.santoro](./group2/Federica/2_3Dmodel_birds.html)
+* [federica.santoro](./group2/Federica/2_3Dmodel_fox.html)
 * [alessia.polverisi](./group2/Alessia%20Polverisi/alessia_polverisi/2_5amin_birds_AR.html)
 * [devrim.kadirbeyoglu]()
 * [federico.brusca]()
