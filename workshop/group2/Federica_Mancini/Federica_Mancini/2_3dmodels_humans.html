@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+            <a-assets>
+              <a-asset-item id="male" src="./assets/assets/3Dmodels/exp4_glb_female_male/male.glb"></a-asset-item>
+              <a-asset-item id="female" src="./assets/assets/3Dmodels/exp4_glb_female_male/female.glb"></a-asset-item>
+            </a-assets>
+
+            <a-entity gltf-model="#male" 
+            position="-0.580 0.960 -3 -" rotation="0 -90 0" scale="0.05 0.05 0.05"></a-entity>
+
+            <a-entity gltf-model="#female" 
+            position="-0.99 0.95 -3" rotation="-2 0 -5" scale="0.05 0.05 0.05"></a-entity>
+ 
+ 
+ 
+        <a-plane position="0 0 0" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+        <a-sky color="skyblue"></a-sky>
+
+    </a-scene>
+  </body>
+</html>
