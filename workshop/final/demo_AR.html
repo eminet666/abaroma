@@ -13,22 +13,46 @@
     <a-scene ar>
         <!-- MAKE YOUR OWN CHOREGRAPHIE BELOW ... -->
         <a-assets>
-            <a-asset-item id="anim_mandala" src="./assets/mandala.glb"></a-asset-item>
-            <a-asset-item id="anim_isabelle" src="./assets/isabelle.glb"></a-asset-item>
+            <a-asset-item id="auroraglb" src="./assets/aurora/D_2025_aurora.glb version.glb"></a-asset-item>
+            <a-asset-item id="lorenzoglb" src="./assets/lorenzo nardi/lorenzo nardi.glb"></a-asset-item>
+            <a-asset-item id="juliaglb" src="./assets/julia/juliadance.glb"></a-asset-item>
+            <a-asset-item id="saraglb" src="./assets/Sara/Sara.glb"></a-asset-item>
+            <a-asset-item id="valentinaglb" src="./assets/valentina/valentina.glb"></a-asset-item>
         </a-assets>
 
-        <a-entity id="mandala" position="-1 0 -4" 
-            gltf-model="#anim_mandala" 
+        <a-entity id="aurora" position="-2 0 -4" 
+            gltf-model="#auroraglb" 
             animation-mixer="timeScale : 4"
             shadow="cast:true; receive:true"
-            goanim="next: isabelle; timescale: 2;">
+            goanim="next: lorenzo; timescale: 1;">
         </a-entity>
 
-        <a-entity id="isabelle" position="1 0 -4" 
-            gltf-model="#anim_isabelle" 
+        <a-entity id="lorenzo" position="-1 0 -3" 
+            gltf-model="#lorenzoglb" 
             animation-mixer="timeScale : 0;"
             shadow="cast:true; receive:true"
-            goanim="next: mandala; timescale: 2;">
+            goanim="next: julia; timescale: 2;">
+        </a-entity>
+
+        <a-entity id="julia" position="0 0 -2" 
+            gltf-model="#juliaglb" 
+            animation-mixer="timeScale : 0;"
+            shadow="cast:true; receive:true"
+            goanim="next: sara; timescale: 2;">
+        </a-entity>
+
+        <a-entity id="sara" position="1 0 -3" 
+            gltf-model="#saraglb" 
+            animation-mixer="timeScale : 0;"
+            shadow="cast:true; receive:true"
+            goanim="next: valentina; timescale: 2;">
+        </a-entity>
+
+        <a-entity id="valentina" position="2 0 -4" 
+            gltf-model="#valentinaglb" 
+            animation-mixer="timeScale : 0;"
+            shadow="cast:true; receive:true"
+            goanim="next: aurora; timescale: 2;">
         </a-entity>
 
         <!-- ----------------------------------------------- -->
