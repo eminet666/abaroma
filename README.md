@@ -58,7 +58,7 @@
 * [3D models (blender)](./downloads/3Dmodels_empty.zip)
 * [3D models (jpg)](./downloads/3Dmodels_images.zip)
 * [final samples VR/AR](./downloads/final.zip)
-* [glb exports](./downloads/glb_exports.zip)
+* [glb exports new](./downloads/glb_exports.zip)
 
 ## ressources
 
