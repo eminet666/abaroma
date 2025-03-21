@@ -12,17 +12,41 @@
         <a-assets>
             <a-asset-item id="auroraglb" src="./assets/aurora/D_2025_aurora.glb version.glb"></a-asset-item>
             <a-asset-item id="lorenzoglb" src="./assets/lorenzo nardi/lorenzo nardi.glb"></a-asset-item>
+            <a-asset-item id="juliaglb" src="./assets/julia/juliadance.glb"></a-asset-item>
+            <a-asset-item id="saraglb" src="./assets/Sara/Sara.glb"></a-asset-item>
+            <a-asset-item id="valentinaglb" src="./assets/valentina/valentina.glb"></a-asset-item>
         </a-assets>
 
-        <a-entity id="aurora" position="-1 0 -4" 
+        <a-entity id="aurora" position="-2 0 -4" 
             gltf-model="#auroraglb" 
             animation-mixer="timeScale : 4"
             shadow="cast:true; receive:true"
             goanim="next: lorenzo; timescale: 1;">
         </a-entity>
 
-        <a-entity id="lorenzo" position="1 0 -4" 
+        <a-entity id="lorenzo" position="-1 0 -3" 
             gltf-model="#lorenzoglb" 
+            animation-mixer="timeScale : 0;"
+            shadow="cast:true; receive:true"
+            goanim="next: julia; timescale: 2;">
+        </a-entity>
+
+        <a-entity id="julia" position="0 0 -2" 
+            gltf-model="#juliaglb" 
+            animation-mixer="timeScale : 0;"
+            shadow="cast:true; receive:true"
+            goanim="next: sara; timescale: 2;">
+        </a-entity>
+
+        <a-entity id="sara" position="1 0 -3" 
+            gltf-model="#saraglb" 
+            animation-mixer="timeScale : 0;"
+            shadow="cast:true; receive:true"
+            goanim="next: valentina; timescale: 2;">
+        </a-entity>
+
+        <a-entity id="valentina" position="2 0 -4" 
+            gltf-model="#valentinaglb" 
             animation-mixer="timeScale : 0;"
             shadow="cast:true; receive:true"
             goanim="next: aurora; timescale: 2;">
@@ -31,7 +55,7 @@
         <!-- plane -->
         <a-plane position="0 0 -6" color="grey" height="12" width="12" rotation="-90 0 0" shadow></a-plane>
 
-        <a-entity camera look-controls position="0 1.6 0"></a-entity>
+        <!-- <a-entity camera look-controls position="0 1.6 0"></a-entity> -->
     </a-scene>
 
 </body>
