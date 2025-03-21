@@ -1,6 +1,6 @@
 ## abaroma workshop
 
-* [federica.mancini](./group2/Federica_Mancini/)
+* [federica.mancini](./group2/Federica_Mancini/Federica_Mancini/2_5_anims_parrot_AR.html)
 * [lorenzo.nardi](./group1/lorenzo/7_3Dmodel_barraco_glb.html)
 * [francesca.marconi](./group2/Francesca_Marconi/2_5_anim_birds_AR.html)
 * [lucrezia.spina](./group1/lucrezia/2_3Dmodels_humans.html)
