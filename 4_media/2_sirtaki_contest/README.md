@@ -1,8 +1,8 @@
-### sirtaki contest
+### sirtaki contest : "Teach me to dance"
 
 
 <table style="width: 100%; border-collapse: collapse; text-align: center;">
-    <caption style="margin-bottom: 10px; text-align: left;">Teach me to dance : from VR to physical reality</caption>
+    <caption style="margin-bottom: 10px; text-align: left;">from VR to physical reality</caption>
     <tr>
         <td>Francesca VR</td>
     </tr>
