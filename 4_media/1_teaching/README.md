@@ -1,4 +1,4 @@
-### presentations : ensaama / numeric department / workshop
+### 0_ presentations : ensaama / numeric department / workshop
 *about ensaama, Paris*
 ![Image 1](./h/img_0.jpg)
 ![Image 2](./h/img_1.jpg)
@@ -13,10 +13,10 @@
 * [whorkshop program (pdf)](../../1_presentation/workshop_abaroma_program.pdf)
 
 
-### 3D animation teaching
+### 1_ 3D animation teaching
 <figcaption style="text-align: center; font-weight: bold; margin-bottom: 10px;">Live : from T-pose to animated characters</figcaption>
 
-### VR/AR teaching
+### 2_ VR/AR teaching
 <figcaption style="text-align: center; font-weight: bold; margin-bottom: 10px;">Live : from code to VR/AR scenes</figcaption>
 
 <div style="display: flex; justify-content: space-between;">
