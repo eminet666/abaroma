@@ -16,18 +16,21 @@
 ### 3D animation teaching
 
 ### VR/AR teaching
-| ![Image 1](./v/img_0.jpg) | ![Image 2](./v/img_1.jpg) | ![Image 3](./v/img_2.jpg) |
-|:----------------:|:----------------:|:----------------:|
-| ![Image 4](./v/img_3.jpg) | ![Image 5](./v/img_4.jpg) | ![Image 6](./v/img_5.jpg) |
-
 
 <div style="display: flex; justify-content: space-between;">
     <img src="./v/img_0.jpg" width="30%">
     <img src="./v/img_1.jpg" width="30%">
     <img src="./v/img_2.jpg" width="30%">
 </div>
+
 <div style="display: flex; justify-content: space-between;">
     <img src="./v/img_3.jpg" width="30%">
     <img src="./v/img_4.jpg" width="30%">
     <img src="./v/img_5.jpg" width="30%">
+</div>
+
+<div style="display: flex; justify-content: space-between; margin-top: 20px;">
+    <img src="./h/img_3.jpg" style="width: 30%;">
+    <img src="./h/img_4.jpg" style="width: 30%;">
+    <img src="./h/img_5.jpg" style="width: 30%;">
 </div>
