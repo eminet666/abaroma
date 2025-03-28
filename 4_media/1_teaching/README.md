@@ -26,7 +26,7 @@
 </div>
 
 <div style="display: flex; justify-content: space-between; margin-top: 20px;">
-    <img src="./h/img_3.jpg" style="width: 30%;">
-    <img src="./h/img_4.jpg" style="width: 30%;">
-    <img src="./h/img_5.jpg" style="width: 30%;">
+    <img src="./v/img_3.jpg" style="width: 30%;">
+    <img src="./v/img_4.jpg" style="width: 30%;">
+    <img src="./v/img_5.jpg" style="width: 30%;">
 </div>
