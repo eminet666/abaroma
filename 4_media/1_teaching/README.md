@@ -14,8 +14,10 @@
 
 
 ### 3D animation teaching
+<figcaption style="text-align: center; font-weight: bold; margin-bottom: 10px;">Live : from T-pose to animated characters</figcaption>
 
 ### VR/AR teaching
+<figcaption style="text-align: center; font-weight: bold; margin-bottom: 10px;">Live : from code to VR/AR scenes</figcaption>
 
 <div style="display: flex; justify-content: space-between;">
     <img src="./v/img_0.jpg" width="30%">
