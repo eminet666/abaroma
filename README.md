@@ -1,4 +1,8 @@
 
+## 0_ media
+* [teaching Animation, VR/AR](./4_media/1_teaching/README.md)
+* [final sirtaki contest](./4_media/2_sirtaki_contest/README.md)
+
 ## workshop
 * [workshop students files](./workshop/README.md)
 * [workshop final VR](./workshop/final/demo_VR.html)
