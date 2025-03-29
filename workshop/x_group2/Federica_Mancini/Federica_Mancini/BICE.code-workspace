@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "BICE",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BICE"
+	}
+}

@@ -1,13 +1,11 @@
 
-## 0_ media
-* [teaching Animation, VR/AR](./4_media/1_teaching/README.md)
-* [final sirtaki contest](./4_media/2_sirtaki_contest/README.md)
-
 ## workshop
-* [workshop students files](./workshop/README.md)
-* [workshop final VR](./workshop/final/demo_VR.html)
-* [workshop final AR](./workshop/final/demo_AR.html)
-* [workshop sirtaki contest](./0_demo_sirtaki_VR/ensaama/sirtaki_VR_contest.html)
+<!-- * [workshop groups files](./workshop/README.md) -->
+* [teaching Animation, VR/AR](./4_media/1_teaching/README.md)
+* [final VR](./workshop/final/demo_VR.html)
+* [final AR](./workshop/final/demo_AR.html)
+* [sirtaki contest VR](./0_demo_sirtaki_VR/ensaama/sirtaki_VR_contest.html)
+* [sirtaki contest media](./4_media/2_sirtaki_contest/README.md)
 
 ## 0_ demo : "teach me to dance !"
 * [movie reference](./0_demo_sirtaki_VR/ensaama/zorba/zorba.mp4)
@@ -62,7 +60,7 @@
 * [3D models (blender)](./downloads/3Dmodels_empty.zip)
 * [3D models (jpg)](./downloads/3Dmodels_images.zip)
 * [final samples VR/AR](./downloads/final.zip)
-* [glb exports ok](./downloads/glb_exports.zip)
+* [glb exports](./downloads/glb_exports.zip)
 
 ## ressources
 

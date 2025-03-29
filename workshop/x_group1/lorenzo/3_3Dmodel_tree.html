@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+        <style>
+            #abaroma {color: red;}
+         </style>
+    </head>
+    <body>
+        <a-scene>
+                <a-assets>
+                    <a-asset-item id="tree-obj" src="./assets/3Dmodels/exp2_obj_lowpoly_tree/Lowpoly_tree_sample.obj"></a-asset-item>
+                    <a-asset-item id="tree-mtl" src="./assets/3Dmodels/exp2_obj_lowpoly_tree/Lowpoly_tree_sample.mtl"></a-asset-item>
+                </a-assets>
+            <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl" position="0 0 -3" scale="1 1 1" material=""></a-entity>
+            <a-plane color="green" height="20" width="20"></a-plane>
+            <a-entity camera="active: true" look-controls wasd-controls position="0 1.6 0"></a-entity>
+            <a-sky color="skyblue"></a-sky>s
+        </a-scene>
+      <h1 id="abaroma">TITLE</h1>
+      <p>paragraph</p>
+    </body>
+</html>

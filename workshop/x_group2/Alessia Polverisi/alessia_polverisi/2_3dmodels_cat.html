@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="cat" src="./assets/3Dmodels/exp1_obj_lowpolycat/cat.obj"></a-asset-item>
+          </a-assets>
+         
+          <a-entity obj-model="obj: #cat" position="0 1 -5" scale="0.005 0.005 0.005"></a-entity>
+
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>

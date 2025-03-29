@@ -1,0 +1,20 @@
+</html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      
+        <a-assets>
+            <a-asset-item id="skull-obj" src="./assets/3Dmodels/exp3_obj_skull/12140_Skull_v3_L2.obj"></a-asset-item>
+          <a-asset-item id="skull-mtl" src="./assets/3Dmodels/exp3_obj_skull/12140_Skull_v3_L2.mtl"></a-asset-item>
+          </a-assets>
+
+          <a-entity obj-model="obj:#skull-obj; mtl: #skull-mtl" position="0 0 -5" rotation="-90 -90 90" scale="0.10 0.10 0.10"></a-entity>
+        
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="skyblue"></a-sky>
+
+    </a-scene>
+  </body>
+</html>

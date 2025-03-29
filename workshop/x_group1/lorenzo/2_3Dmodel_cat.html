@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+        <style>
+            #abaroma {color: red;}
+         </style>
+    </head>
+    <body>
+        <a-scene>
+                <a-assets>
+                    <a-asset-item id="cat-obj" src="./assets/3Dmodels/exp1_obj_lowpolycat/cat.obj"></a-asset-item>
+                    <a-asset-item id="cat-mtl" src="./assets/3Dmodels/exp1_obj_lowpolycat/cat.mtl"></a-asset-item>
+                </a-assets>
+            <a-entity obj-model="obj: #cat-obj; mtl: #cat-mtl" position="0 0 -3" scale="0.005 0.005 0.005" material=""></a-entity>
+            <a-entity camera="active: false" look-controls wasd-controls position="0 1.6 0" data-aframe-default-camera> </a-entity>
+            <a-sky color="skyblue"></a-sky>
+        </a-scene>
+      <h1 id="abaroma">TITLE</h1>
+      <p>paragraph</p>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.5.4/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+
+      <a-assets>
+        <a-asset-item id="fox" src="./assets/3Danims/fox/fox.glb"></a-asset-item>
+      </a-assets>
+
+      <a-entity gltf-model="#fox" animation-mixer="clip: Survey; timeScale:0.8"
+      position="-2 0 -4" scale="0.01 0.01 0.01" rotation="0 90 0"></a-entity>
+      <a-entity gltf-model="#fox" animation-mixer="clip: Walk; timeScale:0.8" 
+      position="0 0 -4" scale="0.01 0.01 0.01" rotation="0 90 0"></a-entity>
+      <a-entity gltf-model="#fox" animation-mixer="clip: Run; timeScale:1.2" 
+      position="2 0 -4" scale="0.01 0.01 0.01" rotation="0 90 0"></a-entity>
+
+
+
+    <a-plane position="0 0 -4" rotation="-90 0 0" width="6" height="2" color="coral"></a-plane>
+
+        <a-sky color="brown" material="color: #f09456"></a-sky>
+      </a-scene>
+  </body>
+</html>

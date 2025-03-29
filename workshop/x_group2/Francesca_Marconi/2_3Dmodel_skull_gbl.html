@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-box position="0 0.5 -5" rotation="0 0 0" color="coral" material="color: coral"></a-box>
+
+        <a-assets>
+            <a-asset-item id="skull" src="./assets/3Dmodels/exp3_obj_skull/skull.glb"></a-asset-item>
+          </a-assets>
+
+          <a-entity gltf-model="#skull" 
+          position="0 0 -5" scale="0.1 0.1 0.1" rotation="-90 0 0"></a-entity>
+
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="coral"></a-plane>
+
+        <a-plane position="0 0 0.5" rotation="-90 0 0" width="4" height="4" color="orange"></a-plane>
+        <a-sky color="brown" material="color: #f09456"></a-sky>
+      </a-scene>
+  </body>
+</html>
