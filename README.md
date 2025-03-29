@@ -2,8 +2,7 @@
 ## workshop
 <!-- * [workshop groups files](./workshop/README.md) -->
 * [teaching Animation, VR/AR](./4_media/1_teaching/README.md)
-* [final VR](./workshop/final/demo_VR.html)
-* [final AR](./workshop/final/demo_AR.html)
+* [final VR/AR](./workshop/final/README.md)
 * [sirtaki contest VR](./0_demo_sirtaki_VR/ensaama/sirtaki_VR_contest.html)
 * [sirtaki contest media](./4_media/2_sirtaki_contest/README.md)
 

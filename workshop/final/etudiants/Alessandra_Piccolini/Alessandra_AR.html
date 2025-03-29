@@ -11,45 +11,37 @@
 </head>
 
 <body>
-    <a-scene>
-       <a-assets>
-        <a-asset-item id="alessandraglb" src="./assets/3Dmodels/alessandra.glb"></a-asset-item>
-        <a-asset-item id="valentinaglb" src="./assets/3Dmodels/valentina/valentina.glb"></a-asset-item>
-        <a-asset-item id="lorenzonardiglb" src="./assets/3Dmodels/lorenzo nardi/lorenzo nardi.glb"></a-asset-item>
-        <a-asset-item id="Saraglb" src="./assets/3Dmodels/Sara/Sara.glb"></a-asset-item>
-        </a-assets>
-
-        <a-entity id="alessandra"
-          gltf-model="#alessandraglb"
-          animation-mixer="timeScale: 2"
-          position="0 0 -4" rotation="0 0 0" scale="1 1 1"
-          shadow="cast;true; recive;true"
-          goanim="next: Sara; timeScale: 1">
-        </a-entity>
-
-        <a-entity id="valentina"
-          gltf-model="#valentinaglb" 
-          animation-mixer="timeScale: 2"
-          position="1 0 -4" rotation="0 0 0" scale="1 1 1"
-          shadow="cast;true; recive;true"
-          goanim="next: alessandra; timeScale: 2">
-        </a-entity>
-
-        <a-entity id="lorenzonardi"
-          gltf-model="#lorenzonardiglb" 
-          animation-mixer="timeScale: 2"
-          position="-1 0 -4" rotation="0 0 0" scale="1 1 1"
-          shadow="cast;true; recive;true"
-          goanim="next: valentina; timeScale: 3">
-        </a-entity>
-
-        <a-entity id="Sara"
-          gltf-model="#Saraglb" 
-          animation-mixer="timeScale: 2"
-          position="-2 0 -4" rotation="0 0 0" scale="1 1 1"
-          shadow="cast;true; recive;true"
-          goanim="next: lorenzonardi; timeScale: 3">
-        </a-entity>
+    <a-scene ar>
+      <a-assets>
+        <a-asset-item id="alessandraglb" src="./assets/alessandra.glb"></a-asset-item>
+        <a-asset-item id="valentinaglb" src="./assets/valentina.glb"></a-asset-item>
+        <a-asset-item id="lorenzonardiglb" src="./assets/lorenzo nardi.glb"></a-asset-item>
+        <a-asset-item id="Saraglb" src="./assets/Sara.glb"></a-asset-item>
+      </a-assets>
+      
+      <a-entity id="alessandra" gltf-model="#alessandraglb" 
+        animation-mixer="timeScale: 2" position="0 0 -4"
+        shadow="cast:true; receive:true" 
+        goanim="next: Sara; timeScale: 1">
+      </a-entity>
+      
+      <a-entity id="valentina" gltf-model="#valentinaglb" 
+        animation-mixer="timeScale: 0" position="1 0 -4"      
+        shadow="cast:true; receive:true" 
+        goanim="next: alessandra; timeScale: 2">
+      </a-entity>
+      
+      <a-entity id="lorenzonardi" gltf-model="#lorenzonardiglb" 
+        animation-mixer="timeScale: 0" position="-1 0 -4"    
+        shadow="cast:true; receive:true" 
+        goanim="next: valentina; timeScale: 3">
+      </a-entity>
+      
+      <a-entity id="Sara" gltf-model="#Saraglb" 
+        animation-mixer="timeScale: 0" position="-2 0 -4" 
+        shadow="cast:true; receive:true" 
+        goanim="next: lorenzonardi; timeScale: 3">
+      </a-entity>
 
         <!-- ----------------------------------------------- -->
         <a-plane position="0 0 -3" rotation="-90 0 0" width="8" height="8" color="#CCCCCC" shadow="receive: true" shadow-material="opacite: 0.5"></a-plane>  
