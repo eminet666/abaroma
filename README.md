@@ -2,7 +2,7 @@
 ## workshop 2026
 <!-- * [workshop groups files](./workshop/README.md) -->
 * [workshop flyer](./1_presentation_2026/flyer/2026_abaroma_flyer.pdf)
-* [workshop program](./1_presentation_2026/workshop_abaroma_program.pdf)
+* [workshop program](./1_presentation_2026/2026_workshop_abaroma_program.pdf)
 
 ## workshop 2025
 <!-- * [workshop groups files](./workshop/README.md) -->
@@ -22,8 +22,8 @@
 * [robot's dance VR](./0_demo_ronde_VR/5_test_chore_final.html)
 
 ## 1_ presentation (school/department)
-* [ensaama_numeric_presentation](./1_presentation/workshop_abaroma_ensaama_num.pdf)
-* [3D models catalog](./1_presentation/workshop_abaroma_3Dmodels.pdf)
+* [ensaama_numeric_presentation](./1_presentation_2026/workshop_abaroma_ensaama_num.pdf)
+* [3D models catalog](./1_presentation_2026/workshop_abaroma_3Dmodels.pdf)
 
 ## 2_ tutorial / demo files
 #### 1_ aframe library
