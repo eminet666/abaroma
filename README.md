@@ -1,21 +1,27 @@
 
-## workshop
+## workshop 2026
 <!-- * [workshop groups files](./workshop/README.md) -->
+* [workshop flyer](./1_presentation_2026/flyer/2026_abaroma_flyer.pdf)
+* [workshop program](./1_presentation_2026/workshop_abaroma_program.pdf)
+
+## workshop 2025
+<!-- * [workshop groups files](./workshop/README.md) -->
+* [workshop flyer](./1_presentation_2025/flyer/abaroma_flyer.pdf)
+* [workshop program](./1_presentation_2025/workshop_abaroma_program.pdf)
 * [teaching Animation, VR/AR](./4_media/1_teaching/README.md)
-* [final VR/AR](./workshop/final/README.md)
-* [sirtaki contest VR](./0_demo_sirtaki_VR/ensaama/sirtaki_VR_contest.html)
+* [final demo VR](./workshop/final/demo_abaroma_VR.html)
+* [final demo AR](./workshop/final/demo_abaroma_AR.html)
+<!-- * [sirtaki contest VR](./0_demo_sirtaki_VR/ensaama/sirtaki_VR_contest.html) -->
 * [sirtaki contest media](./4_media/2_sirtaki_contest/README.md)
 
 ## 0_ demo : "teach me to dance !"
-* [movie reference](./0_demo_sirtaki_VR/ensaama/zorba/zorba.mp4)
+* [movie reference](./0_demo_sirtaki_VR/zorba/zorba.mp4)
 * [sirtaki VR at ensaama](./0_demo_sirtaki_VR/ensaama/ensaama.html)
 * [sirtaki VR in Greece](./0_demo_sirtaki_VR/grece/index_final.html)
 * [sirtaki AR](./0_demo_sirtaki_VR/ensaama/sirtaki_AR.html)
 * [robot's dance VR](./0_demo_ronde_VR/5_test_chore_final.html)
 
-## 1_ presentation
-* [workshop flyer](./1_presentation/flyer/abaroma_flyer.pdf)
-* [workshop program](./1_presentation/workshop_abaroma_program.pdf)
+## 1_ presentation (school/department)
 * [ensaama_numeric_presentation](./1_presentation/workshop_abaroma_ensaama_num.pdf)
 * [3D models catalog](./1_presentation/workshop_abaroma_3Dmodels.pdf)
 
