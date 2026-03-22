@@ -54,18 +54,18 @@
                 <audio id="zorba" src="./assets/audio/zorba_64_light.mp3" preload="auto" loop="false"></audio>
 				<img id="lieu" crossorigin="anonymous" src="./assets/view360/ensaama_light_num.jpg" />
 				<a-mixin id="commun" 
-                         
+                         gltf-model="#glbModel" rotation="0 0 0" 
                          model_loaded shadow="cast:true; receive:true"
 	                     animation-mixer="clip: idle; clampWhenFinished: true;"
 	                     delay_ready="audio: zorba; delai: 5000;" scale="0.7 0.7 0.7">
 	            </a-mixin>
             </a-assets>
 
-			<a-entity  id ="danseur1" gltf-model="#glbModel" mixin="commun" position="1 0 -3.5" rotation="0 0 0" sirtaki>
+			<a-entity  id ="danseur1" mixin="commun" position="1 0 -3.5" sirtaki>
             </a-entity>
-			<a-entity  id ="danseur2" gltf-model="#glbModel" mixin="commun" position="-1 0 -3.5" rotation="0 0 0">
+			<a-entity  id ="danseur2" mixin="commun" position="-1 0 -3.5">
             </a-entity>
-			<a-entity  id ="danseur3" gltf-model="#glbModel" mixin="commun" position="-3 0 -3.5" rotation="0 0 0">
+			<a-entity  id ="danseur3" mixin="commun" position="-3 0 -3.5">
             </a-entity>
 
 			<a-plane position="-5 0 -8" rotation="-90 0 0"
