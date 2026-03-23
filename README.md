@@ -11,6 +11,7 @@
 * [teaching Animation, VR/AR](./4_media/1_teaching/README.md)
 * [final demo VR](./workshop/final/demo_abaroma_VR.html)
 * [final demo AR](./workshop/final/demo_abaroma_AR.html)
+* [glb exports](./downloads/glb_exports_2025.zip)
 <!-- * [sirtaki contest VR](./0_demo_sirtaki_VR/ensaama/sirtaki_VR_contest.html) -->
 * [sirtaki contest media](./4_media/2_sirtaki_contest/README.md)
 
@@ -50,7 +51,7 @@
 
 #### 7_ AFRAME complements
 * [lights (default)](./2_tutorial/7_complements_1_lights.html)
-* [shadow](./2_tutorial/7_complements_2_frequency_shadow.html)
+* [shadow](./2_tutorial/7_complements_2_shadow.html)
 * [frequency](./2_tutorial/7_complements_3_frequency.html)
 * [frequency component](./2_tutorial/7_complements_3_frequency_component.html)
 * [audio](./2_tutorial/7_complements_4_audio.html)
@@ -65,7 +66,6 @@
 * [3D models (blender)](./downloads/3Dmodels_empty.zip)
 * [3D models (jpg)](./downloads/3Dmodels_images.zip)
 * [final samples VR/AR](./downloads/final.zip)
-* [glb exports](./downloads/glb_exports.zip)
 
 ## ressources
 
@@ -73,7 +73,6 @@
 * [aframe](https://aframe.io/)
 * [aframe getting start](https://aframe.io/docs/1.7.0/introduction/)
 * [animation-mixer](https://github.com/c-frame/aframe-extras/tree/master/src/loaders)
-* [aframe tutorial](https://aframe-course.glitch.me/index.html)
 
 ### some free online 3D repositories
 * [turbosquid](https://www.turbosquid.com/Search/3D-Models/free)
