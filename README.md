@@ -65,6 +65,9 @@
 * [3D assets samples](./downloads/assets.zip)
 * [3D models (blender)](./downloads/3Dmodels_empty.zip)
 * [3D models (jpg)](./downloads/3Dmodels_images.zip)
+* [Skeletons VR-AR](./downloads/skeleton_abaroma_VR-AR.zip)
+* [2025_animated_models](./downloads/2025_animated_models.zip)
+* [2025_final_VR-AR](./downloads/final.zip)
 * [final samples VR/AR](./downloads/final.zip)
 
 ## ressources
