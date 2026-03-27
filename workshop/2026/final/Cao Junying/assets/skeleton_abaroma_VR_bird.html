@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/aframe-extras@7.2.0/dist/aframe-extras.min.js "></script>
+    <script src="https://eminet666.github.io/abaroma/lib/gonanim_component.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: skyblue">
+        <a-assets>
+            <a-asset-item id="flamingoglb" src="./Flamingo.glb"></a-asset-item>
+            <a-asset-item id="parrotglb" src="./Parrot.glb"></a-asset-item>
+            <a-asset-item id="storkglb" src="./Stork.glb"></a-asset-item>
+        </a-assets>
+        </a-assets>
+        
+        <a-entity id="flamingo" position="-2 0 -6" gltf-model="#flamingoglb" 
+            animation-mixer="timeScale : 4"
+            shadow="cast:true; receive:true" 
+            goanim="next: parrot; timescale: 1;">
+        </a-entity>
+        
+        <a-entity id="parro" position="0 0 -6" gltf-model="#parroglb" 
+            animation-mixer="timeScale : 0"
+            shadow="cast:true; receive:true" 
+            goanim="next: stork; timescale: 2;">
+        </a-entity>
+
+        <a-entity id="stork" position="2 0 -6" gltf-model="#storkglb" 
+            animation-mixer="timeScale : 0"
+            shadow="cast:true; r eceive:true" 
+            goanim="next: flamingo; timescale: 2;">
+        </a-entity>
+        
+        <!-- plane -->
+        <a-plane position="0 0 -6" color="grey" height="12" width="12" rotation="-90 0 0" shadow></a-plane>
+
+        <!-- <a-entity camera look-controls position="0 1.6 0"></a-entity> -->
+    </a-scene>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/aframe-extras@7.2.0/dist/aframe-extras.min.js"></script>
+        <script src="https://eminet666.github.io/abaroma/lib/gonanim_component.js"></script>
+    </head>
+
+    <body>
+        <a-scene background="color: skyblue">
+        <a-assets>
+            <a-asset-item id="C_Silvestri_Chiaraglb" src="./C_Silvestri_Chiara.glb"></a-asset-item>
+            <a-asset-item id="E_Junying_Caoglb" src="./E_Junying_Cao_2026.glb"></a-asset-item>
+            <a-asset-item id="K_Perini_Emanueleglb" src="./K_Perini_Emanuele_2026.glb"></a-asset-item>
+            <a-asset-item id="TENG_LE_E_2026glb" src="./TENG_LE_E_2026.glb"></a-asset-item>
+            <a-asset-item id="D_Michela_Luciani_2026glb" src="./D_Michela_Luciani_2026.glb"></a-asset-item>
+        </a-assets>
+
+
+        <a-entity id="C_Silvestri_Chiara" position="0 0 -4" 
+            gltf-model="#C_Silvestri_Chiaraglb" 
+            animation-mixer="timeScale: 2"
+            shadow="cast:true; receive:true" 
+            goanim="next: K_Perini_Emanuele; timescale: 1;">
+        </a-entity>
+        
+        <a-entity id="K_Perini_Emanuele" position="1.5 0 -8" 
+            gltf-model="#K_Perini_Emanueleglb" 
+            animation-mixer="timeScale: 2"
+            shadow="cast:true; receive:true" 
+            goanim="next: E_Junying_Cao; timescale: 1;">
+        </a-entity>
+
+       <a-entity id="E_Junying_Cao" position="3 0 -6" 
+            gltf-model="#E_Junying_Caoglb" 
+            animation-mixer="timeScale: 2"
+            shadow="cast:true; receive:true" 
+            goanim="next: TENG_LE_E_2026; timescale: 1;">
+        </a-entity>
+
+        <a-entity id="TENG_LE_E_2026" position="-3 0 -6" 
+            gltf-model="#TENG_LE_E_2026glb" 
+            animation-mixer="timeScale: 2"
+            shadow="cast:true; receive:true" 
+            goanim="next: D_Michela_Luciani_2026; timescale: 1;">
+        </a-entity>
+        
+        <a-entity id="D_Michela_Luciani_2026" position="-1.5 0 -6" 
+            gltf-model="#D_Michela_Luciani_2026glb" 
+            animation-mixer="timeScale: 2"
+            shadow="cast:true; receive:true" 
+            goanim="next: C_Silvestri_Chiara; timescale: 1;">
+        </a-entity>
+        <a-plane position="0 0 -6" color="grey" height="12" width="12" rotation="-90 0 0" shadow></a-plane>
+
+</a-scene>
+
+</body>
+</html>
