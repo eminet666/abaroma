@@ -90,7 +90,7 @@
 ### and others
 * [markdown](https://www.markdownguide.org/basic-syntax/)
 
-### test
+### test gps
 * [abaroma map viewer](https://eminet666.github.io/eminet_AR/5_ARjs_enhanced/map_viewer_abaroma2.html)
 * [abraoma place 1](https://eminet666.github.io/eminet_AR/5_ARjs_enhanced/gps_abaroma2_cour1_box_multi_mixin.html)
 * [abaroma place 2](https://eminet666.github.io/eminet_AR/5_ARjs_enhanced/gps_abaroma2_cour2_box_multi_mixin.html)
