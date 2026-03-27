@@ -4,6 +4,7 @@
 * [workshop flyer](./1_presentation_2026/flyer/2026_abaroma_flyer.pdf)
 * [workshop program](./1_presentation_2026/2026_workshop_abaroma_program.pdf)
 * [upload link](https://drive.google.com/drive/folders/169ByeCZaVn8-PJgJaIjoeFIO0WbACQHR?usp=sharing)
+* [dance contest](./workshop/2026/contest/contest.html)
 
 ## workshop 2025
 <!-- * [workshop groups files](./workshop/README.md) -->

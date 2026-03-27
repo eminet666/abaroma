@@ -1,0 +1,30 @@
+<!-- https://github.com/jgbarah/aframe-playground/tree/master/moving-01 -->
+<!-- Fox : https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/Fox -->
+<!-- animations : dans le gltf "name":  Walk / Survey / Run-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aframe-extras@7.5.4/dist/aframe-extras.min.js"></script>
+  </head>
+
+  <body>
+
+      <a-scene>
+        <a-assets>
+          <a-asset-item id="glb" src="./danse.glb"></a-asset-item>
+        </a-assets>
+
+        <a-entity position="0 0 -3"
+                  rotation="0 0 0"
+                  scale="2 2 2"
+                  gltf-model="#glb"
+                  animation-mixer="duration: 10">
+        </a-entity>
+
+        <a-sky color="grey"></a-sky>
+      </a-scene>
+
+  </body>
+</html>
